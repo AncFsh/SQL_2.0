@@ -50,5 +50,5 @@ conn = engine.connect()
 conn.execute(measure_records_insert)
 conn.execute(stations_records_insert)
 
-conn.execute("SELECT * FROM stations LIMIT 10").fetchall()
-conn.execute("SELECT * FROM measure LIMIT 10").fetchall()
+conn.execute("SELECT * FROM stations LIMIT 5").fetchall()
+conn.execute("SELECT * FROM measure LIMIT 5").fetchall()
